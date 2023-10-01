@@ -1,0 +1,79 @@
+:root {
+    font-size: 62.5%;
+}
+
+/* mobile m, 375px */
+
+@media (min-width: 375px) {
+    .container {
+        width: 345px;
+    }
+
+    .wrapWeathers {
+        gap: 0.8rem;
+    }
+    
+    .weather-1, .weather-2, .weather-3, .weather-4 {
+       font-size: 1.8rem;
+    }
+    
+    .time {
+        font-size: 0.7rem;
+    }
+    
+    .average {
+        font-size: 1.8rem;
+    }
+    
+    .wrapOtherInformation {
+        width: 30rem;
+        line-height: 2.5rem;
+    }
+    
+    .windSpeed, .humidity, .weatherParameter, .weatherDescription {
+        font-size: 1.8rem;
+    }
+    
+    .windSpeed span, .humidity span, .weatherParameter span, .weatherDescription span {
+        font-size: 1.8rem;
+    }
+}
+
+/* mobile l, 425px */
+
+@media (min-width: 425px) {
+    .container {
+        width: 395px;
+    }
+
+    .wrapWeathers {
+        gap: 1.5rem;
+    }
+    
+    .weather-1, .weather-2, .weather-3, .weather-4 {
+       font-size: 2rem;
+    }
+    
+    .time {
+        font-size: 0.8rem;
+    }
+    
+    .average {
+        font-size: 2rem;
+    }
+    
+    .wrapOtherInformation {
+        width: 33rem;
+        line-height: 3rem;
+    }
+    
+    .windSpeed, .humidity, .weatherParameter, .weatherDescription {
+        font-size: 2rem;
+    }
+    
+    .windSpeed span, .humidity span, .weatherParameter span, .weatherDescription span {
+        font-size: 2rem;
+    }
+}
+
+
