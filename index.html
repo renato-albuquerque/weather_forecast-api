@@ -21,21 +21,21 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="title">Choose the City !</h1>
-
-            <div>
-                <input class="input" type="text" placeholder="Type the city name.">
-                <button class="button">
-                    <i class="fa-solid fa-magnifying-glass fa-fade"></i>
-                </button>
-            </div>
-
-            <h2 class="subtitle">Weather Forecast</h2>
+            <h2 class="title">Weather Forecast</h2>
             <p class="source">Source: <a class="source-a" href="https://openweathermap.org/">OpenWeather API</a></p>
         </header>
         
         <main class="main">
             <p class="date">Date: <span>&nbsp;dd/mm/yyyy</span></p>
+            <h1 class="subtitle">Choose the City !</h1>
+            
+            <div class="wrapInputBtnSearch">
+                <input class="input" type="text" placeholder="Type the city name.">
+                <button class="buttonSearch">
+                    <i class="fa-solid fa-magnifying-glass fa-fade"></i>
+                </button>
+            </div>
+
 
             <h3 class="headline">Next Temperatures:</h3>
             <div class="wrapWeathers">
@@ -68,7 +68,7 @@
                 <p class="weatherDescription"><i class="fa-solid fa-circle-info"></i>Weather Description: <span></span></p>
             </div>
 
-            <button class="button" onclick="window.location.reload()">Update info.</button>
+            <button class="buttonUpdate" onclick="window.location.reload()">Update info.</button>
 
         </main>
         <footer class="footer">
