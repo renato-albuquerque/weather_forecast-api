@@ -67,7 +67,7 @@ body {
 }
 
 .source-a {
-    color: #FDF8E6;
+    color: black;
     font-weight: bold;
 }
 
@@ -113,10 +113,11 @@ body {
 
 .date {
     font-size: 2.5rem;
+    font-weight: bold;
     text-align: center;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px white;
     margin-bottom: 4rem;
-    color: #FDF8E6;
+    color: #CE8026;
 }
 
 .headline {
@@ -136,7 +137,7 @@ body {
 }
 
 .weather-1, .weather-2, .weather-3, .weather-4 {
-    background-color: #CE8026;
+    background-color: #37586C;
     color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -148,7 +149,7 @@ body {
 }
 
 .average {
-    background-color: #CE8026;
+    background-color: #37586C;
     color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -168,7 +169,7 @@ body {
 }
 
 .windSpeed span, .humidity span, .weatherParameter span, .weatherDescription span {
-    color: white;
+    color: #37586C;
     font-weight: bold;
 }
 
