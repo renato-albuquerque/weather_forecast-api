@@ -9,6 +9,16 @@
         width: 345px;
     }
 
+    .input {
+        width: 23rem;
+        font-size: 1.6rem;
+    }
+    
+    .buttonSearch {
+        width: 5rem;
+        font-size: 1.6rem;
+    }
+
     .wrapWeathers {
         gap: 0.8rem;
     }
