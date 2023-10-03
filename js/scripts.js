@@ -42,11 +42,6 @@ let weatherDescription = document.querySelector(".weatherDescription span")
 
 let button = document.querySelector(".button") 
 
-const apiKey = "a0b6dbf50b04399ef8f5079a298d1e04"
-const cityName = "florianopolis"
-
-const url = `https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=${apiKey}&q=${cityName}&units=metric`;
-
 let todayDate = new Date();
 console.log(todayDate);
 date.textContent = `${todayDate.getDate()}/${todayDate.getMonth()+1}/${todayDate.getFullYear()}`;
@@ -59,6 +54,11 @@ date.textContent = `${todayDate.getDate()}/${todayDate.getMonth()+1}/${todayDate
 async function weatherForecast() {
 
     try {
+        const apiKey = "a0b6dbf50b04399ef8f5079a298d1e04"
+        const input = document.querySelector(".input").value
+
+        const url = `https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=${apiKey}&q=${input}&units=metric`;
+
         let response = await fetch(url);
         let data = await response.json();
         console.log(data);
@@ -84,6 +84,3 @@ async function weatherForecast() {
 	console.error(error);
     }
 }
-
-weatherForecast()
-
