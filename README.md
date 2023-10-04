@@ -1,4 +1,4 @@
-# Weather Forecast, around the world | OpenWeather API
+# Weather Forecast, cities around the world | OpenWeather API
 
 Improvement of the Floripa Weather Forecast Project: [Solution URL here](https://github.com/renato-albuquerque/floripa_weather_forecast-api)
 
@@ -8,7 +8,7 @@ Project: Development of a weather forecast app for the cities around the world.
 Back-End challenge: 
 - [x] Consume data from the API: https://rapidapi.com/KirylBokiy/api/openweather43/
 - Provide at least two routes to the front-end: 
-- [x] Return each of the temperatures, in degrees Celsius, of the next 4 weather forecasts available for the city chosen by the user.
+- [x] Return each of the temperatures, in degrees Celsius, of the next 4 weather forecasts available for the chosen city by the user.
 - [x] Plus: Below each temperature, show the date/time of the weather forecast.
 - [x] Show a field with average temperatures.
 - [x] Consume other data from the API, private choice. Ex.: Wind speed, humidity, weather condition and weather description.
