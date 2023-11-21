@@ -46,8 +46,6 @@ let todayDate = new Date();
 console.log(todayDate);
 date.textContent = `${todayDate.getDate()}/${todayDate.getMonth()+1}/${todayDate.getFullYear()}`;
 
-// events
-
 
 // functions
 
