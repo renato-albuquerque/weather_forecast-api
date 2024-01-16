@@ -23,7 +23,7 @@
         gap: 0.8rem;
     }
     
-    .weather-1, .weather-2, .weather-3, .weather-4 {
+    .weather {
        font-size: 1.8rem;
     }
     
@@ -57,10 +57,10 @@
     }
 
     .wrapWeathers {
-        gap: 1.5rem;
+        gap: 1rem;
     }
     
-    .weather-1, .weather-2, .weather-3, .weather-4 {
+    .weather {
        font-size: 2rem;
     }
     
