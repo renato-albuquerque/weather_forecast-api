@@ -85,6 +85,15 @@ body {
     margin-bottom: 4rem;
 }
 
+.date {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 3px white;
+    margin-bottom: 4rem;
+    color: #CE8026;
+}
+
 .subtitle {
     font-family: 'Pacifico', cursive;
     font-size: 2.5rem;
@@ -119,15 +128,6 @@ body {
     font-size: 1.6rem;
 }
 
-.date {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 2px 2px 3px white;
-    margin-bottom: 4rem;
-    color: #CE8026;
-}
-
 .headline {
     font-size: 2.5rem;
     font-family: 'Pacifico', cursive;
@@ -144,7 +144,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.weather-1, .weather-2, .weather-3, .weather-4 {
+.weather {
     background-color: #37586C;
     color: white;
     padding: 0.5rem;
@@ -172,15 +172,6 @@ body {
     margin: 0 auto 2rem;
 }
 
-.windSpeed, .humidity, .weatherParameter, .weatherDescription {
-    font-size: 1.5rem;
-}
-
-.windSpeed span, .humidity span, .weatherParameter span, .weatherDescription span {
-    color: #37586C;
-    font-weight: bold;
-}
-
 .fa-wind, .fa-circle-info {
     margin-right: 0.5rem;
     color: #37586C;
@@ -189,6 +180,15 @@ body {
 .fa-droplet {
     margin-right: 0.9rem;
     color: #37586C;
+}
+
+.windSpeed, .humidity, .weatherParameter, .weatherDescription {
+    font-size: 1.5rem;
+}
+
+.windSpeed span, .humidity span, .weatherParameter span, .weatherDescription span {
+    color: #37586C;
+    font-weight: bold;
 }
 
 .buttonUpdate {
@@ -208,14 +208,14 @@ body {
 .footerNameJob {
     text-align: center;
     font-size: 1.2rem;
-    color: black;
     font-weight: bold;
+    color: black;
 }
 
 .footerNameJob a {
-    color: white;
     font-size: 1.3rem;
     font-weight: bold;
+    color: white;
 }
 
 .footerNameJob a:hover {
