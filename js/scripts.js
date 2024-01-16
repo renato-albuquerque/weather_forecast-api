@@ -40,8 +40,6 @@ let humidity = document.querySelector(".humidity span")
 let weatherParameter = document.querySelector(".weatherParameter span")
 let weatherDescription = document.querySelector(".weatherDescription span")
 
-let button = document.querySelector(".button") 
-
 let todayDate = new Date();
 console.log(todayDate);
 date.textContent = `${todayDate.getDate()}/${todayDate.getMonth()+1}/${todayDate.getFullYear()}`;
