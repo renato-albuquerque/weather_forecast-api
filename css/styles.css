@@ -217,3 +217,8 @@ body {
     font-size: 1.3rem;
     font-weight: bold;
 }
+
+.footerNameJob a:hover {
+    color: #37586C;
+    transition: all .3s;
+}
